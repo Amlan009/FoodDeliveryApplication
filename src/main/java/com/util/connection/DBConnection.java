@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/khaalo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&characterEncoding=UTF-8";
     private static final String USER = "root";
-    private static final String PASSWORD = "Amlan@2003";
+    private static final String PASSWORD = "root";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     
     static {
